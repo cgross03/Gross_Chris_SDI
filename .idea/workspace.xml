@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4924f397-6327-41fe-8c29-5a8f1257933f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Expressions1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Expressions1/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 2 Videos_Variables/Assignment [Arrays]/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 2 Videos_Variables/Assignment [Arrays]/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 2 Videos_Variables/Assignment [Arrays]/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 2 Videos_Variables/Assignment [Boolean_Variables]/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 2 Videos_Variables/Assignment [Boolean_Variables]/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 2 Videos_Variables/Assignment [Boolean_Variables]/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 2 Videos_Variables/Assignment [Defining_Variables/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 2 Videos_Variables/Assignment [Defining_Variables/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 2 Videos_Variables/Assignment [Defining_Variables/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 2 Videos_Variables/Assignment [Values_Variables]/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Week 2 Videos_Variables/Assignment [Values_Variables]/js/script.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4924f397-6327-41fe-8c29-5a8f1257933f" name="Default" comment="" />
     <ignored path="Gross_Chris_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +25,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week 2 Videos/Expressions/Assignment Opperators/js/script.js">
+        <entry file="file://$PROJECT_DIR$/Week 2 Videos/Prompt and Alert/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56478405" vertical-offset="0" max-vertical-offset="903">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.23255815" vertical-offset="0" max-vertical-offset="903">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +75,7 @@
         <option value="$PROJECT_DIR$/Week 2 Videos/Expressions/Concantenating Strings/js/script.js" />
         <option value="$PROJECT_DIR$/Week 2 Videos/Expressions/Casting/js/script.js" />
         <option value="$PROJECT_DIR$/Week 2 Videos/Expressions/Assignment Opperators/js/script.js" />
+        <option value="$PROJECT_DIR$/Week 2 Videos/Prompt and Alert/js/script.js" />
       </list>
     </option>
   </component>
@@ -130,20 +118,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Gross_Chris_SDI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gross_Chris_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gross_Chris_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week 2 Videos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -519,6 +493,16 @@
         <state vertical-scroll-proportion="0.56478405" vertical-offset="0" max-vertical-offset="903">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 2 Videos/Prompt and Alert/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23255815" vertical-offset="0" max-vertical-offset="903">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
