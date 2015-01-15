@@ -1,5 +1,5 @@
 /**
- * Created by Chris on 1/14/15.
+ * Expressions Worksheet Created by Chris Gross on 1/15/15.
  */
 
     alert ("These are my answers to the Expressions_Worksheet assignment!")
