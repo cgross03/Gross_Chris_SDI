@@ -24,25 +24,25 @@ console.log("Sparky gets the " + leftOver + " slices of leftover pizza."); //Res
 
 
     //Average Shopping Bill
-var groceryBills = [137, 210, 98, 137, 78];
-var total = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3] + groceryBills[4];
-console.log("$" + total + " is the total of grocery bills for 5 weeks.");
+var groceryBills = [137, 210, 98, 137, 78]; //Given - 5 weeks of grocery bills
+var total = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3] + groceryBills[4]; //Variable/Array for total of bills
+console.log("$" + total + " is the total of grocery bills for 5 weeks."); //Result - Total of all bills
 
-var average = total / 5;
-console.log("$" + average + " is the average of all 5 bills");
+var average = total / 5; //Variable - Average of 5 weeks of bills
+console.log("$" + average + " is the average of all 5 bills"); //Result - Average
 
 
     //Discounts
-var item = 499;
+var item = 499; //Item full price
 console.log("Item price is $" + item);
 
-var discount = .35;
-var discountTotal = item - item * discount;
-console.log("Item total after 35% discount is $" + discountTotal)
+var discount = .35; //Variable - Discount
+var discountTotal = item - item * discount; //Variable - Total of item after Discount
+console.log("Item total after 35% discount is $" + discountTotal) //Result of total after discount
 
-var tax = item * .06;
-var totalOfItem = discountTotal + tax;
-console.log("Item price with 6% sales tax is $" + totalOfItem);
+var tax = discountTotal * .06; //Variable - tax times the total
+var totalOfItem = discountTotal + tax; //discount total plus the tax total
+console.log("Item price with 6% sales tax is $" + totalOfItem); // Result - total of item after tax and discount
 
 
 
