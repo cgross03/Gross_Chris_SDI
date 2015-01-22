@@ -23,7 +23,7 @@ if(kidHeight > minHeight){
 }
 
 */
-
+/*
 var budget = 100;
 var iPhonePrice = 199.99;
 var wonLottery = true;
@@ -33,3 +33,24 @@ if(iPhonePrice < budget || !wonLottery){
 }else{
     console.log("No phone for you");
 }
+
+*/
+
+/*var gpa = 3;*/
+
+// If the gpa is over the min 2.0 score, the student can graduate
+/*if(gpa > 2.0){
+    console.log("You can graduate!");
+}else{
+    console.log("GPA is too low!");
+}*/
+
+/*(gpa > 2.0) ? console.log("You can Graduate!") : console.log("GPA is too low!");*/
+
+var age = 9;
+var book;
+
+//If the child is under 10, they get Green Egs and Ham, otherwise they get The Time Machine
+
+book = (age<10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
