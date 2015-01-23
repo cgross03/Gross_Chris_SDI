@@ -10,7 +10,7 @@
 // Create our "fruit bowl"
 // Use an array, variable that holds variables
 
-var bowlOfFruit = ["apple", "pear", "peach", "pear", "Banana", "tomato", "kiwi" ];
+var bowlOfFruit = ["apple", "pear", "peach", "pear", "Banana", "tomato", "kiwi", "pear", "pear", "grape" ];
 console.log(bowlOfFruit);
 
 // Find out how many items are in an array
@@ -67,12 +67,30 @@ console.log("There are " + totalNumPears + " pears in the fruit bowl");
 // For loop
 // for(initialize variables; condition to test; increment of change) {code to run each time the condition is true}
 
-for(var i=0; i<5; i++){
-    console.log ("inside the loop");
+//create a new var to hold total of pears
+var pearNum=0
+
+
+for(var i=0; i<5; i++) {
+    console.log("inside the loop");
     console.log(i);
 }
 
+// Using a for loop with an array
+// Use j as the index number
+for(var j=0; j<bowlOfFruit.length; j++ ) {
+    console.log(bowlOfFruit [j]);
 
+    // Test each fruit to see if its a pair
+    if (bowlOfFruit[j] === "pear") {
+        console.log("You found a pear");
+        pearNum++;
+    } else {
+        // If the fruit is not a pear
+        console.log("This is not a pear");
+    }
+}
+console.log ("Total number of pears in the array " + pearNum);
 
 
 
