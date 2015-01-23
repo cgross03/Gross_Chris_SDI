@@ -47,7 +47,7 @@ if(iPhonePrice < budget || !wonLottery){
 
 /*(gpa > 2.0) ? console.log("You can Graduate!") : console.log("GPA is too low!");*/
 
-var age = 9;
+var age = 14;
 var book;
 
 //If the child is under 10, they get Green Egs and Ham, otherwise they get The Time Machine
