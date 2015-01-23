@@ -62,6 +62,18 @@ if(bowlOfFruit[2] === "pear"){
 }
 console.log("There are " + totalNumPears + " pears in the fruit bowl");
 
+//Loop - repetitive code
+
+// For loop
+// for(initialize variables; condition to test; increment of change) {code to run each time the condition is true}
+
+for(var i=0; i<5; i++){
+    console.log ("inside the loop");
+    console.log(i);
+}
+
+
+
 
 
 
