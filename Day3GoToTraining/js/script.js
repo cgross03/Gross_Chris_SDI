@@ -92,10 +92,48 @@ for(var j=0; j<bowlOfFruit.length; j++ ) {
 }
 console.log ("Total number of pears in the array " + pearNum);
 
+// Validate prompts
+
+var userInput = prompt ("Please type in your name");
+
+// Make sure it is not blank
+
+if(userInput === ""){
+    console.log("Left it blank");
+    // Reprompt the user - give them a second chance to set the variable
+    userInput = prompt("Please dont leave it blank. What's your name?");
+}
+
+//Check if the user types in a number
+
+var age = prompt("Please type in your age");
+
+//isNaN (to check) - tests to see if it is Not a Number
+//Double Negative - be careful
+
+    console.log(isNaN("cat")); //Returns true
+    console.log(isNaN(7)); //Returns false
+
+//test if age is a number
+
+    if (isNaN(age)) {
+        // This means the user typed in a text string and not a number
+        // Re-Prompt for a number
+        age = prompt("Please only use numbers. What is your age?");
+        console.log(age);
+    }
+
+    var userYesNo = prompt("Please type in yes or no!")
+
+//toLowerCase() - Changes all to lower case
+    userYesNo = userYesNo.toLowerCase();
 
 
+//Limit to just those choices
+/*
+if (userYesNo != "Yes" && userYesNo != "no" && userYesNo != "Yes" && userYesNo != "NO") {
+        userYesNo = prompt("Only type in only yes or no!")
 
-
-
-
+    }
+*/
 
