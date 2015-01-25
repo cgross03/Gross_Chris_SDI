@@ -66,7 +66,13 @@ cardStock = cardStock.toLowerCase(); // Set input to process as all lowercase
         console.log("We wont even bother adding it to our estimate");
     }
 }
-alert ("At your present rate of use, you will require " + finalWhite + " reams of white paper,\n" + finalColor + " reams of colored paper,  \nand " + finalCard + " reams of cardstock in order to make it through the next year"); // Alerted user of final calculation
+var totalPaper = (finalWhite+finalColor+finalCard); // Set variable to total all reams to allow for possible discount
+console.log(totalPaper);
+
+var discount; //Set variable for ternary operation
+discount = (totalPaper > 35) ? "You qualify for a discount if you place your order now!" : ""; //Ternary operation offering discount if 35 or more reams of paper are used annually
+
+alert ("At your present rate of use, you will require " + finalWhite + " reams of white paper,\n" + finalColor + " reams of colored paper,  \nand " + finalCard + " reams of cardstock in order to make it through the next year\n" + discount); // Alerted user of final calculation
 
 
 
