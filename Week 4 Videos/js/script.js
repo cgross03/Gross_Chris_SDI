@@ -33,7 +33,7 @@ function calcArea(w, h) { //w = 30, h = 20
     console.log(area);
 }
 */
-/*
+
 //Functions - Returning Values
 // This is a function
 
@@ -66,7 +66,7 @@ dogYears(6);
 
 
 
-*/
+
 
 // Anonymous function - Also known as closure
 // Anonymous functions must be defined before it can ve used.
