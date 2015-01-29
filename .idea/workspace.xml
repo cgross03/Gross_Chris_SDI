@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4924f397-6327-41fe-8c29-5a8f1257933f" name="Default" comment="" />
+    <list default="true" id="4924f397-6327-41fe-8c29-5a8f1257933f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day4GoToTraining/js/script.js" afterPath="$PROJECT_DIR$/Day4GoToTraining/js/script.js" />
+    </list>
     <ignored path="Gross_Chris_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +29,9 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day4GoToTraining/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08305648" vertical-offset="0" max-vertical-offset="903">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.43189368" vertical-offset="0" max-vertical-offset="903">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -688,11 +688,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day4GoToTraining/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08305648" vertical-offset="0" max-vertical-offset="903">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.43189368" vertical-offset="0" max-vertical-offset="903">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
