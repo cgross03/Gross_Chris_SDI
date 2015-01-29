@@ -25,3 +25,18 @@ while(min==="" || isNaN(min)){
 }
 
 
+// Prompt the user for a maximum number
+//Do While loop
+/*
+do{
+code to run
+}while(condition to test)
+ */
+
+do{
+    //Runs at least once
+    //Prompt user
+    var max = prompt ("Please enter max value:");
+} while(max==="" || isNaN(max));
+
+//Create a function that will give us a random number
