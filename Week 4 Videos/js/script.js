@@ -69,7 +69,7 @@ dogYears(6);
 
 
 // Anonymous function - Also known as closure
-// Anonymous functions must be defined before it can ve used.
+// Anonymous functions must be defined before it can be used.
 
 var calcArea = function(width, height){ //defining
 //code the function runs
@@ -80,6 +80,33 @@ var calcArea = function(width, height){ //defining
 var a  = calcArea(20,30);
 console.log(a);
 
+
+// While Loop
+
+var b = 5; // Sets up the index
+
+while (b > 0){ // Checks the index
+    console.log(b + " Kegs on the wall");
+    b -- ; //Increments or decrements the index
+}
+
+// Do While Loop
+
+var c = 10;
+
+do {
+    console.log (c + " Kegs on the wall")
+    c --;
+}
+
+while (c > 0);
+
+
+// For Loop - shorthand version of the loops
+
+for(var i = 10; i > 0; i--){
+    console.log(i + " Kegs on the wall")
+}
 
 
 
