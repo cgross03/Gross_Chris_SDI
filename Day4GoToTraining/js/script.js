@@ -50,8 +50,23 @@ function randomizr(minNum, maxNum){
 
     //Math.random() * (max number - max number) + min number
     var randomNumber = Math.round( Math.random() * (maxNum - minNum) + Number(minNum));
-    console.log(randomNumber);
+    //console.log(randomNumber);
+    //return value to main code - does not return variable
+    return randomNumber;
 }
 
 //Function call - starts the function
-randomizr(min,max);
+//catch the returned value from the function
+
+var results = randomizr(min,max);
+console.log (results);
+
+
+//I want 15 random numbers?
+
+// use a loop - for loop -
+//for Declare a variable; condition to test: increment to change{code}
+
+for(var i = 0; i < 15; i++){
+    console.log(randomizr (min, max));
+}
