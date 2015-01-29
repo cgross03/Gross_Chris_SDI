@@ -39,4 +39,19 @@ do{
     var max = prompt ("Please enter max value:");
 } while(max==="" || isNaN(max));
 
+/*
+function functionName(parameters) {
+    code goes here
+}
+ */
+
 //Create a function that will give us a random number
+function randomizr(minNum, maxNum){
+
+    //Math.random() * (max number - max number) + min number
+    var randomNumber = Math.round( Math.random() * (maxNum - minNum) + Number(minNum));
+    console.log(randomNumber);
+}
+
+//Function call - starts the function
+randomizr(min,max);
